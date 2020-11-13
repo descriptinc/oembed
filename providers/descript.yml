@@ -1,0 +1,11 @@
+---
+- provider_name: Descript
+  provider_url: https://www.descript.com
+  endpoints:
+  - schemes:
+    - https://share.descript.com/view/*
+    url: https://api.descript.com/v2/oembed
+    discovery: true
+    example_urls:
+    - https://api.descript.com/v2/oembed?url=https%3A%2F%2Fshare.descript.com%2Fview%2Fc1fd3c21-be18-4354-bff4-7a8754bf05b9
+...
